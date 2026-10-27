@@ -1,0 +1,31 @@
+/* Design tokens: colores, tipografía, espaciado y radios compartidos por todos los componentes */
+:root {
+  --ink: #0f1020;
+  --ink-2: #17182e;
+  --ink-3: #1f2140;
+  --line: rgba(255, 244, 224, 0.1);
+  --line-strong: rgba(255, 244, 224, 0.22);
+
+  --cream: #fff4e0;
+  --muted: #a9abc6;
+
+  --coral: #ff5d47;
+  --sun: #A5B4FC ;
+  --mint: #3ddc97;
+  --lilac: #8b7cff;
+
+  --font-display: 'Bricolage Grotesque', 'DM Sans', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --container: 1120px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --header-h: 68px;
+  --section-y: clamp(72px, 10vw, 128px);
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --shadow-pop: 0 24px 60px -24px rgba(0, 0, 0, 0.7);
+}
